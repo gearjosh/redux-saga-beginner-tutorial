@@ -17,7 +17,7 @@ cd redux-saga-beginner-tutorial
 npm install
 ```
 
-Run the demo (which now get a random D&D spell from the Dungeons & Dragons API)
+Run the demo (which now gets a random D&D spell from the Dungeons & Dragons API)
 
 ```
 npm start
