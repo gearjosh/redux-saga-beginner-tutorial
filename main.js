@@ -6,8 +6,8 @@ import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { logger } from 'redux-logger'
 
-import Counter from './Counter'
 import DndSpellGetter from './DndSpellGetter'
+import Loader from './Loader'
 import { rootReducer } from './reducers'
 import rootSaga from './sagas'
 
@@ -24,6 +24,8 @@ function render() {
       <DndSpellGetter
         spell={store.getState().spell}
         onGetSpell={() => action('GET_SPELL')}/>
+      <Loader
+        spellLoading={store.getState().spell.spellLoading} />
     </div>,
     document.getElementById('root')
   )

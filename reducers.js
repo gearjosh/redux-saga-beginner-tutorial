@@ -13,7 +13,7 @@ export function counterReducer(state = 0, action) {
   }
 }
 
-export function spellReducer(state = {name: '', description: ''}, action) {
+export function spellReducer(state = {name: '', description: '', spellLoading: false}, action) {
   switch (action.type) {
     case 'GET_SPELL':
       return {
