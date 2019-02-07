@@ -1,4 +1,7 @@
 # redux-saga-beginner-tutorial
+
+## This doesn't do any of the things in the tutorial anymore
+
 Companion Repo for [Redux/Redux-saga beginner tutorial](https://github.com/redux-saga/redux-saga/blob/master/docs/introduction/BeginnerTutorial.md)
 
 # Instructions
